@@ -186,9 +186,9 @@ export default function SecureNetLanding() {
             hero: {
                 title: "Ваш Интернет,",
                 titleSpan: " Под Надзором (как надо)",
-                subtitle: "Хрен кто подглядит! Всё зашифровано по-воячьи, чтоб ни один пиндос не влез.",
+                subtitle: "Хрен кто подглядит! Всё зашифровано по-военному, цены в стопках — по-нашему!",
                 startTrial: "Дать Попробовать",
-                viewPricing: "Глянуть Цены (с ума сойти)"
+                viewPricing: "Глянуть Цены (не в баксах!)"
             },
             stats: [
                 { number: "2М+", label: "Нормальных Людей" },
@@ -228,7 +228,7 @@ export default function SecureNetLanding() {
             },
             pricing: {
                 title: "Выбирай, но с умом",
-                subtitle: "Хочешь — бесплатно, хочешь — платно, всё по совести",
+                subtitle: "Цены честные, как в деревне у бабки. Считаем в стопках — так понятнее",
                 plans: [
                     {
                         name: "Дармовой",
@@ -243,15 +243,15 @@ export default function SecureNetLanding() {
                         price: 9.99,
                         period: "в месяц",
                         features: ["5 устройств (включая холодильник)", "50+ стран (и не только гейропа)", "Поддержка круглосуточная", "Вообще без логов", "Интернет без тормозов", "Kill Switch (в случае ЧП)"],
-                        buttonText: "Порадуй Себя",
+                        buttonText: "20 стопок — дёшево!",
                         popular: "Народный Выбор"
                     },
                     {
                         name: "Семейный",
                         price: 14.99,
                         period: "в месяц",
-                        features: ["10 устройств (на всю коммуналку)", "Все сервера", "Особая забота", "Доступ родне", "Антивирус как у внука", "Свой айпишник (прямо как паспорт)", "доминик будет доволен"],
-                        buttonText: "Подключить Всех"
+                        features: ["10 устройств (на всю коммуналку)", "Все сервера", "Особая забота", "Доступ родне", "Антивирус как у внука", "Свой айпишник (прямо как паспорт)", "потому что главное это семья"],
+                        buttonText: "30 стопок за всех родных"
                     }
                 ]
             },
@@ -317,6 +317,16 @@ export default function SecureNetLanding() {
     }
 
     const t = translations[language]
+
+    // Функция конвертации цен в стопки водки для русской локализации
+    const formatPrice = (price, lang) => {
+        if (lang === 'ru') {
+            if (price === 0) return 'Даром'
+            const vodkaShots = Math.round(price * 2) // примерно 1 доллар = 2 стопки
+            return `${vodkaShots} стопок`
+        }
+        return `$${price}`
+    }
 
     // Функция смены языка
     const changeLanguage = (newLanguage) => {
@@ -551,8 +561,17 @@ export default function SecureNetLanding() {
                                     <div className="text-center mb-8">
                                         <h3 className="text-white text-2xl font-bold mb-2">{plan.name}</h3>
                                         <div className="mb-4">
-                                            <span className="text-4xl font-bold text-white">${plan.price}</span>
-                                            <span className="text-slate-400">/{plan.period}</span>
+                                            <span className="text-4xl font-bold text-white">
+                                                {formatPrice(plan.price, language)}
+                                            </span>
+                                            <span className="text-slate-400">
+                                                /{language === 'ru' ? 'в месяц' : plan.period}
+                                                {language === 'ru' && plan.price > 0 && (
+                                                    <span className="block text-xs mt-1 text-slate-500">
+                                                        (или ${plan.price} для буржуев)
+                                                    </span>
+                                                )}
+                                            </span>
                                         </div>
                                     </div>
 
