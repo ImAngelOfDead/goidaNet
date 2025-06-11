@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@main
 struct goidaApp: App {
     var body: some Scene {
         WindowGroup {
