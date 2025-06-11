@@ -1,6 +1,6 @@
 # SecureNet VPN - macOS App
 
-[English](#english) | [Русский](#русский)
+[English](#english) | [Русский](#русский) | [web app readme](https://github.com/ImAngelOfDead/goidaNetSite/blob/main/README.md)
 
 ---
 
