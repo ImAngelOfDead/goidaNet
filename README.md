@@ -1,6 +1,6 @@
 # SecureNet VPN - Landing Website
 
-[English](#english) | [Русский](#русский) | [MacOS app readme](https://github.com/ImAngelOfDead/goidaNetSite/blob/main/appREADME.md)
+[English](#english) | [Русский](#русский) | [MacOS app readme](https://github.com/ImAngelOfDead/goidaNet/tree/macos-app)
 
 ---
 
