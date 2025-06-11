@@ -12,7 +12,9 @@ export default function SecureNetLanding() {
 
     // Проверяем, выбирал ли пользователь язык ранее
     useEffect(() => {
-        const savedLanguage = localStorage.getItem('securenet-language')
+        // Note: localStorage is not available in Claude.ai artifacts
+        // Using default language instead
+        const savedLanguage = 'en' // localStorage.getItem('securenet-language')
         if (savedLanguage) {
             setLanguage(savedLanguage)
         } else {
@@ -248,7 +250,7 @@ export default function SecureNetLanding() {
                         name: "Семейный",
                         price: 14.99,
                         period: "в месяц",
-                        features: ["10 устройств (на всю коммуналку)", "Все сервера", "Особая забота", "Доступ родне", "Антивирус как у внука", "Свой айпишник (прямо как паспорт)"],
+                        features: ["10 устройств (на всю коммуналку)", "Все сервера", "Особая забота", "Доступ родне", "Антивирус как у внука", "Свой айпишник (прямо как паспорт)", "доминик будет доволен"],
                         buttonText: "Подключить Всех"
                     }
                 ]
@@ -319,7 +321,8 @@ export default function SecureNetLanding() {
     // Функция смены языка
     const changeLanguage = (newLanguage) => {
         setLanguage(newLanguage)
-        localStorage.setItem('securenet-language', newLanguage)
+        // Note: localStorage is not available in Claude.ai artifacts
+        // localStorage.setItem('securenet-language', newLanguage)
         setShowLanguageModal(false)
         // Сбрасываем активный отзыв при смене языка
         setActiveTestimonial(0)
@@ -354,7 +357,10 @@ export default function SecureNetLanding() {
                 </div>
 
                 <style jsx>{`
-                    
+                    .loading-bar {
+                        animation: loading 2.5s ease-in-out forwards;
+                    }
+
                     @keyframes loading {
                         0% { width: 1%; }
                         70% { width: 85%; }
@@ -378,8 +384,8 @@ export default function SecureNetLanding() {
 
             {/* Дополнительные медленно вращающиеся элементы */}
             <div className="fixed inset-0 pointer-events-none">
-                <div className="absolute animate-spin-slow top-10 right-10 w-40 h-40 bg-gradient-to-r from-cyan-400 to-blue-400 rounded-full opacity-20 blur-2xl" style={{animationDuration: '20s'}}></div>
-                <div className="absolute animate-spin-slow bottom-10 left-10 w-48 h-48 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full opacity-15 blur-2xl" style={{animationDuration: '25s', animationDirection: 'reverse'}}></div>
+                <div className="absolute animate-spin top-10 right-10 w-40 h-40 bg-gradient-to-r from-cyan-400 to-blue-400 rounded-full opacity-20 blur-2xl" style={{animationDuration: '20s'}}></div>
+                <div className="absolute animate-spin bottom-10 left-10 w-48 h-48 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full opacity-15 blur-2xl" style={{animationDuration: '25s', animationDirection: 'reverse'}}></div>
             </div>
 
             {/* Fade-in overlay */}
@@ -597,7 +603,7 @@ export default function SecureNetLanding() {
                                         ))}
                                     </div>
                                     <blockquote className="text-white text-xl mb-6 italic">
-                                        "{t.testimonials.items[activeTestimonial]?.text || ''}"
+                                        &ldquo;{t.testimonials.items[activeTestimonial]?.text || ''}&rdquo;
                                     </blockquote>
                                     <div className="flex items-center justify-center gap-4">
                                         <div className="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center text-white font-semibold">
@@ -688,13 +694,6 @@ export default function SecureNetLanding() {
                     </div>
                 </footer>
             </div>
-
-            <style jsx>{`
-                @keyframes spin-slow {
-                    from { transform: rotate(0deg); }
-                    to { transform: rotate(360deg); }
-                }
-            `}</style>
         </div>
     )
 }
