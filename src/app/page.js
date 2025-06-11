@@ -57,7 +57,7 @@ export default function SecureNetLanding() {
                 { number: "99.9%", label: "Uptime" }
             ],
             features: {
-                title: "Why Choose SecureNet?",
+                title: "Why Choose GoidaNet?",
                 subtitle: "Advanced features to keep you safe and connected",
                 items: [
                     {
@@ -82,7 +82,7 @@ export default function SecureNetLanding() {
                     },
                     {
                         title: "Multi-Device Support",
-                        description: "Protect all your devices with a single SecureNet account"
+                        description: "Protect all your devices with a single goidaNet account"
                     }
                 ]
             },
@@ -117,13 +117,13 @@ export default function SecureNetLanding() {
             },
             testimonials: {
                 title: "Trusted by Millions",
-                subtitle: "See what our users say about SecureNet",
+                subtitle: "See what our users say about goidaNet",
                 items: [
                     {
                         name: "Sarah Johnson",
                         avatar: "SJ",
                         rating: 5,
-                        text: "SecureNet changed how I browse online. Lightning fast speeds and rock-solid security!",
+                        text: "goidaNet changed how I browse online. Lightning fast speeds and rock-solid security!",
                         location: "New York, USA"
                     },
                     {
@@ -144,7 +144,7 @@ export default function SecureNetLanding() {
             },
             cta: {
                 title: "Ready to Secure Your Privacy?",
-                subtitle: "Join millions of users who trust SecureNet with their online security",
+                subtitle: "Join millions of users who trust goidaNet with their online security",
                 button: "Start Free Trial",
                 link: "View All Features →"
             },
@@ -153,7 +153,7 @@ export default function SecureNetLanding() {
                 product: "Product",
                 support: "Support",
                 company: "Company",
-                copyright: "© 2025 SecureNet. All rights reserved.",
+                copyright: "© 2025 goidaNet. All rights reserved.",
                 links: {
                     features: "Features",
                     pricing: "Pricing",
@@ -291,7 +291,7 @@ export default function SecureNetLanding() {
                 product: "Чего Умеет",
                 support: "Если Чего — Пиши",
                 company: "Кто За Этим Стоит (не ЦРУ!)",
-                copyright: "© 2025 SecureNet. Все права защищены, как Крым.",
+                copyright: "© 2025 goidaNet. Все права защищены, как Крым.",
                 links: {
                     features: "Что Умеет",
                     pricing: "Сколько Стоит",
@@ -653,7 +653,7 @@ export default function SecureNetLanding() {
                             <div>
                                 <div className="flex items-center gap-2 mb-4">
                                     <Shield className="w-6 h-6 text-indigo-500" />
-                                    <span className="text-white font-bold text-lg">SecureNet</span>
+                                    <span className="text-white font-bold text-lg">GoidaNet</span>
                                 </div>
                                 <p className="text-slate-400 text-sm">
                                     {t.footer.description}
