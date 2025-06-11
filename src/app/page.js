@@ -354,11 +354,9 @@ export default function SecureNetLanding() {
                 </div>
 
                 <style jsx>{`
-                    .loading-bar {
-                        animation: loading 2.5s ease-out;
-                    }
+                    
                     @keyframes loading {
-                        0% { width: 0%; }
+                        0% { width: 1%; }
                         70% { width: 85%; }
                         100% { width: 100%; }
                     }
@@ -433,9 +431,9 @@ export default function SecureNetLanding() {
                             <span className="text-white font-bold text-lg">SecureNet</span>
                         </div>
                         <div className="hidden md:flex items-center gap-8">
-                            <a href="#features" className="text-slate-300 hover:text-white transition-colors text-sm font-medium">{t.nav.features}</a>
-                            <a href="#pricing" className="text-slate-300 hover:text-white transition-colors text-sm font-medium">{t.nav.pricing}</a>
-                            <a href="#about" className="text-slate-300 hover:text-white transition-colors text-sm font-medium">{t.nav.about}</a>
+                            <a href="#" className="text-slate-300 hover:text-white transition-colors text-sm font-medium">{t.nav.features}</a>
+                            <a href="#" className="text-slate-300 hover:text-white transition-colors text-sm font-medium">{t.nav.pricing}</a>
+                            <a href="#" className="text-slate-300 hover:text-white transition-colors text-sm font-medium">{t.nav.about}</a>
                             <button
                                 onClick={() => setShowLanguageModal(true)}
                                 className="text-slate-300 hover:text-white transition-colors p-2 rounded-lg hover:bg-slate-700/50"
@@ -695,9 +693,6 @@ export default function SecureNetLanding() {
                 @keyframes spin-slow {
                     from { transform: rotate(0deg); }
                     to { transform: rotate(360deg); }
-                }
-                .animate-spin-slow {
-                    animation: spin-slow linear infinite;
                 }
             `}</style>
         </div>
