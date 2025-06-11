@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1EA2235C2DF9EAC200AFC17D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EA223452DF9EAC100AFC17D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EA2234C2DF9EAC100AFC17D;
+			remoteInfo = goida;
+		};
+		1EA223662DF9EAC200AFC17D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EA223452DF9EAC100AFC17D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EA2234C2DF9EAC100AFC17D;
+			remoteInfo = goida;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EA2234D2DF9EAC100AFC17D /* goida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goida.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA2235B2DF9EAC200AFC17D /* goidaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goidaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA223652DF9EAC200AFC17D /* goidaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goidaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1EA2234F2DF9EAC100AFC17D /* goida */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = goida;
+			sourceTree = "<group>";
+		};
+		1EA2235E2DF9EAC200AFC17D /* goidaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = goidaTests;
+			sourceTree = "<group>";
+		};
+		1EA223682DF9EAC200AFC17D /* goidaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = goidaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EA2234A2DF9EAC100AFC17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA223582DF9EAC200AFC17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA223622DF9EAC200AFC17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EA223442DF9EAC100AFC17D = {
+			isa = PBXGroup;
+			children = (
+				1EA2234F2DF9EAC100AFC17D /* goida */,
+				1EA2235E2DF9EAC200AFC17D /* goidaTests */,
+				1EA223682DF9EAC200AFC17D /* goidaUITests */,
+				1EA2234E2DF9EAC100AFC17D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EA2234E2DF9EAC100AFC17D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EA2234D2DF9EAC100AFC17D /* goida.app */,
+				1EA2235B2DF9EAC200AFC17D /* goidaTests.xctest */,
+				1EA223652DF9EAC200AFC17D /* goidaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EA2234C2DF9EAC100AFC17D /* goida */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA2236F2DF9EAC200AFC17D /* Build configuration list for PBXNativeTarget "goida" */;
+			buildPhases = (
+				1EA223492DF9EAC100AFC17D /* Sources */,
+				1EA2234A2DF9EAC100AFC17D /* Frameworks */,
+				1EA2234B2DF9EAC100AFC17D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1EA2234F2DF9EAC100AFC17D /* goida */,
+			);
+			name = goida;
+			packageProductDependencies = (
+			);
+			productName = goida;
+			productReference = 1EA2234D2DF9EAC100AFC17D /* goida.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EA2235A2DF9EAC200AFC17D /* goidaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA223722DF9EAC200AFC17D /* Build configuration list for PBXNativeTarget "goidaTests" */;
+			buildPhases = (
+				1EA223572DF9EAC200AFC17D /* Sources */,
+				1EA223582DF9EAC200AFC17D /* Frameworks */,
+				1EA223592DF9EAC200AFC17D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EA2235D2DF9EAC200AFC17D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1EA2235E2DF9EAC200AFC17D /* goidaTests */,
+			);
+			name = goidaTests;
+			packageProductDependencies = (
+			);
+			productName = goidaTests;
+			productReference = 1EA2235B2DF9EAC200AFC17D /* goidaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EA223642DF9EAC200AFC17D /* goidaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA223752DF9EAC200AFC17D /* Build configuration list for PBXNativeTarget "goidaUITests" */;
+			buildPhases = (
+				1EA223612DF9EAC200AFC17D /* Sources */,
+				1EA223622DF9EAC200AFC17D /* Frameworks */,
+				1EA223632DF9EAC200AFC17D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EA223672DF9EAC200AFC17D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1EA223682DF9EAC200AFC17D /* goidaUITests */,
+			);
+			name = goidaUITests;
+			packageProductDependencies = (
+			);
+			productName = goidaUITests;
+			productReference = 1EA223652DF9EAC200AFC17D /* goidaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EA223452DF9EAC100AFC17D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					1EA2234C2DF9EAC100AFC17D = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					1EA2235A2DF9EAC200AFC17D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 1EA2234C2DF9EAC100AFC17D;
+					};
+					1EA223642DF9EAC200AFC17D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 1EA2234C2DF9EAC100AFC17D;
+					};
+				};
+			};
+			buildConfigurationList = 1EA223482DF9EAC100AFC17D /* Build configuration list for PBXProject "goida" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EA223442DF9EAC100AFC17D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1EA2234E2DF9EAC100AFC17D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EA2234C2DF9EAC100AFC17D /* goida */,
+				1EA2235A2DF9EAC200AFC17D /* goidaTests */,
+				1EA223642DF9EAC200AFC17D /* goidaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EA2234B2DF9EAC100AFC17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA223592DF9EAC200AFC17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA223632DF9EAC200AFC17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EA223492DF9EAC100AFC17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA223572DF9EAC200AFC17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA223612DF9EAC200AFC17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EA2235D2DF9EAC200AFC17D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EA2234C2DF9EAC100AFC17D /* goida */;
+			targetProxy = 1EA2235C2DF9EAC200AFC17D /* PBXContainerItemProxy */;
+		};
+		1EA223672DF9EAC200AFC17D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EA2234C2DF9EAC100AFC17D /* goida */;
+			targetProxy = 1EA223662DF9EAC200AFC17D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EA2236D2DF9EAC200AFC17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EA2236E2DF9EAC200AFC17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1EA223702DF9EAC200AFC17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = goida/goida.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silas.goida;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1EA223712DF9EAC200AFC17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = goida/goida.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silas.goida;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1EA223732DF9EAC200AFC17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silas.goidaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goida.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/goida";
+			};
+			name = Debug;
+		};
+		1EA223742DF9EAC200AFC17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silas.goidaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goida.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/goida";
+			};
+			name = Release;
+		};
+		1EA223762DF9EAC200AFC17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silas.goidaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = goida;
+			};
+			name = Debug;
+		};
+		1EA223772DF9EAC200AFC17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silas.goidaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = goida;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EA223482DF9EAC100AFC17D /* Build configuration list for PBXProject "goida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA2236D2DF9EAC200AFC17D /* Debug */,
+				1EA2236E2DF9EAC200AFC17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA2236F2DF9EAC200AFC17D /* Build configuration list for PBXNativeTarget "goida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA223702DF9EAC200AFC17D /* Debug */,
+				1EA223712DF9EAC200AFC17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA223722DF9EAC200AFC17D /* Build configuration list for PBXNativeTarget "goidaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA223732DF9EAC200AFC17D /* Debug */,
+				1EA223742DF9EAC200AFC17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA223752DF9EAC200AFC17D /* Build configuration list for PBXNativeTarget "goidaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA223762DF9EAC200AFC17D /* Debug */,
+				1EA223772DF9EAC200AFC17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EA223452DF9EAC100AFC17D /* Project object */;
+}
