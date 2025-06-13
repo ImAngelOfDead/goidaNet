@@ -33,7 +33,7 @@ A beautiful, modern VPN application for macOS built with SwiftUI. Features a stu
 #### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/securenet-macos.git
+   git clone https://github.com/ImAngelOfDead/goidaNet.git
    cd securenet-macos
    ```
 
@@ -46,25 +46,7 @@ A beautiful, modern VPN application for macOS built with SwiftUI. Features a stu
    - Select your target device/simulator
    - Press `Cmd + R` to build and run
 
-### 🏗️ Project Structure
 
-```
-SecureNet/
-├── ContentView.swift          # Main app entry point
-├── Views/
-│   ├── SplashView.swift      # Loading screen
-│   ├── MainVPNView.swift     # Connection interface
-│   ├── ServerListView.swift  # Server selection
-│   └── SettingsView.swift    # App settings
-├── Components/
-│   ├── AnimatedBackground.swift
-│   ├── CustomTabBar.swift
-│   └── ServerRow.swift
-├── Models/
-│   ├── VPNManager.swift      # App state management
-│   └── VPNServer.swift       # Server data model
-└── Assets.xcassets           # App icons and images
-```
 
 ### 🎨 Design System
 
@@ -154,7 +136,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 #### Установка
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/yourusername/securenet-macos.git
+   git clone https://github.com/ImAngelOfDead/goidaNet/.git
    cd securenet-macos
    ```
 
@@ -167,25 +149,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
    - Выберите целевое устройство/симулятор
    - Нажмите `Cmd + R` для сборки и запуска
 
-### 🏗️ Структура Проекта
-
-```
-SecureNet/
-├── ContentView.swift          # Главная точка входа приложения
-├── Views/
-│   ├── SplashView.swift      # Экран загрузки
-│   ├── MainVPNView.swift     # Интерфейс подключения
-│   ├── ServerListView.swift  # Выбор сервера
-│   └── SettingsView.swift    # Настройки приложения
-├── Components/
-│   ├── AnimatedBackground.swift
-│   ├── CustomTabBar.swift
-│   └── ServerRow.swift
-├── Models/
-│   ├── VPNManager.swift      # Управление состоянием приложения
-│   └── VPNServer.swift       # Модель данных сервера
-└── Assets.xcassets           # Иконки и изображения приложения
-```
 
 ### 🎨 Дизайн Система
 
