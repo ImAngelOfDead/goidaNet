@@ -38,7 +38,7 @@ A stunning, modern landing page for SecureNet VPN service built with Next.js, Re
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/securenet-website.git
+   git clone https://github.com/ImAngelOfDead/goidaNet.git
    cd securenet-website
    ```
 
@@ -58,29 +58,6 @@ A stunning, modern landing page for SecureNet VPN service built with Next.js, Re
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-### 🏗️ Project Structure
-
-```
-securenet-website/
-├── app/
-│   ├── globals.css           # Global styles
-│   ├── layout.tsx           # Root layout
-│   └── page.tsx             # Main landing page
-├── components/
-│   ├── ui/                  # Reusable UI components
-│   ├── Hero.tsx             # Hero section
-│   ├── Features.tsx         # Features showcase
-│   ├── Pricing.tsx          # Pricing plans
-│   ├── Testimonials.tsx     # Customer testimonials
-│   └── Footer.tsx           # Site footer
-├── lib/
-│   ├── translations.ts      # Language translations
-│   └── utils.ts            # Utility functions
-├── public/
-│   ├── icons/              # VPN and UI icons
-│   └── images/             # Images and assets
-└── package.json
-```
 
 ### 🌍 Internationalization
 
@@ -265,7 +242,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/yourusername/securenet-website.git
+   git clone https://github.com/ImAngelOfDead/goidaNet.git
    cd securenet-website
    ```
 
@@ -285,29 +262,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 4. Откройте [http://localhost:3000](http://localhost:3000) в браузере
 
-### 🏗️ Структура Проекта
-
-```
-securenet-website/
-├── app/
-│   ├── globals.css           # Глобальные стили
-│   ├── layout.tsx           # Корневой макет
-│   └── page.tsx             # Главная страница лендинга
-├── components/
-│   ├── ui/                  # Переиспользуемые UI компоненты
-│   ├── Hero.tsx             # Hero секция
-│   ├── Features.tsx         # Демонстрация возможностей
-│   ├── Pricing.tsx          # Тарифные планы
-│   ├── Testimonials.tsx     # Отзывы клиентов
-│   └── Footer.tsx           # Футер сайта
-├── lib/
-│   ├── translations.ts      # Переводы языков
-│   └── utils.ts            # Вспомогательные функции
-├── public/
-│   ├── icons/              # VPN и UI иконки
-│   └── images/             # Изображения и ассеты
-└── package.json
-```
 
 ### 🌍 Интернационализация
 
